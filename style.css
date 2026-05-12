@@ -1,7 +1,41 @@
 body {
-    background-color:rgb(78, 158, 78)
-}
-
-p {
-    color: rgb(249, 249, 75);
-}
+      background: #0b7a33;
+      font-family: 'Poppins', sans-serif;
+      overflow: hidden;
+    }
+    .main-box {
+      background: #0d8a3a;
+      height: 650px;
+      margin-top: 40px;
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden;
+    }
+    .neymar-img {
+      width: 470px;
+      position: absolute;
+      bottom: 0;
+      left: 40px;
+    }
+    .hero-text {
+      position: absolute;
+      right: 90px;
+      top: 210px;
+    }
+    .hero-text h1 {
+      font-size: 90px;
+      color: #ffe600;
+      font-style: italic;
+      font-weight: 800;
+    }
+    .hero-text p {
+      color: #ffe600;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    .socials a {
+      color: #ffe600;
+      text-decoration: none;
+      margin-left: 25px;
+      font-weight: 500;
+    }
