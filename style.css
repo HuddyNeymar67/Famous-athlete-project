@@ -1,41 +1,31 @@
-body {
-      background: #0b7a33;
-      font-family: 'Poppins', sans-serif;
-      overflow: hidden;
-    }
-    .main-box {
-      background: #0d8a3a;
-      height: 650px;
-      margin-top: 40px;
-      border-radius: 10px;
-      position: relative;
-      overflow: hidden;
-    }
-    .neymar-img {
-      width: 470px;
-      position: absolute;
-      bottom: 0;
-      left: 40px;
-    }
-    .hero-text {
-      position: absolute;
-      right: 90px;
-      top: 210px;
-    }
-    .hero-text h1 {
-      font-size: 90px;
-      color: #ffe600;
-      font-style: italic;
-      font-weight: 800;
-    }
-    .hero-text p {
-      color: #ffe600;
-      font-size: 24px;
-      font-weight: 500;
-    }
-    .socials a {
-      color: #ffe600;
-      text-decoration: none;
-      margin-left: 25px;
-      font-weight: 500;
-    }
+body{
+  background-color:green;
+  color:yellow;
+  font-family:Arial;
+}
+
+.main-box{
+  height:650px;
+  position:relative;
+}
+
+.hero-text {
+ text-align: right;
+  font-size:80px;
+  bottom: 50px;
+}
+
+.neymar-img{
+  width:450px;
+  left:40px;
+  bottom: 100px;
+}
+
+a{
+  color:yellow;
+  text-decoration:none;
+  margin:10px;
+}
+.socials {
+  top: 0px;
+}
